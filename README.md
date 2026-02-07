@@ -18,7 +18,8 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 - [Video Demonstrations](#video-demonstrations)
 - [Screenshots](#screenshots)
 - [Advanced Features](#advanced-features)
-- [Configuration](#configuration)
+- [Configuration](#configuration)<img width="640" height="916" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
+
 - [Contributing](#contributing)
 
 ---
