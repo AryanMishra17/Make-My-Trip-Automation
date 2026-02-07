@@ -5,7 +5,7 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 
 ## 🎥 Video Demonstrations
 
-### 📹 Complete Test Execution in Chrome
+### 📹 Complete Test Execution
 - **Link**: https://www.linkedin.com/posts/aryan-mishra-912925223_selenium-automationtesting-java-activity-7425940305717133312-BElh
 - **Duration**: ~2–3 minutes
 
