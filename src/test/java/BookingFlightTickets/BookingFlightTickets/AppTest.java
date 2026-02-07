@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.bookflight.HomePage;
 import com.bookflight.testcase.TestCase;
 import com.currency.Search_Currency;
+import com.login.Login;
 import com.screenshot.Screenshot;
 
 public class AppTest extends TestCase {
@@ -14,13 +15,15 @@ public class AppTest extends TestCase {
 
         HomePage home = new HomePage(driver);
         Search_Currency currency = new Search_Currency(driver);
-
+         Login login=new Login(driver);
         try {
             Reporter.log("Test started: Book Round Trip Flight", true);
 
             home.closePopups();
             Reporter.log("Popups closed", true);
-
+         
+            Reporter.log("login/Signup", true);
+             login.loginButton(prop.getProperty("email"));
             currency.selectCurrency(prop.getProperty("currency"));
 
             home.enterSourceCity(prop.getProperty("fromCity"));
