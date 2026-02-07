@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started: Book Round Trip Flight]]>
+    </line>
+    <line>
+      <![CDATA[Login popup closed]]>
+    </line>
+    <line>
+      <![CDATA[Chat popup closed]]>
+    </line>
+    <line>
+      <![CDATA[Popups closed]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on currency dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Typing currency in search box: INR]]>
+    </line>
+    <line>
+      <![CDATA[Number of currency suggestions displayed: 1]]>
+    </line>
+    <line>
+      <![CDATA[Currency suggestion found: Indian Rupee
+INR]]>
+    </line>
+    <line>
+      <![CDATA[Currency selected successfully: INR]]>
+    </line>
+    <line>
+      <![CDATA[Source city selected: Pune Airport]]>
+    </line>
+    <line>
+      <![CDATA[Destination city selected: Hyderabad Begumpet Airport]]>
+    </line>
+    <line>
+      <![CDATA[Cities selected]]>
+    </line>
+    <line>
+      <![CDATA[Departure date selected: Tue Feb 17 2026]]>
+    </line>
+    <line>
+      <![CDATA[Return date field activated]]>
+    </line>
+    <line>
+      <![CDATA[Return date selected: Sun Mar 01 2026]]>
+    </line>
+    <line>
+      <![CDATA[Dates selected]]>
+    </line>
+    <line>
+      <![CDATA[Starting traveller selection flow]]>
+    </line>
+    <line>
+      <![CDATA[Traveller widget opened]]>
+    </line>
+    <line>
+      <![CDATA[Traveller widget opened]]>
+    </line>
+    <line>
+      <![CDATA[Adults = 3]]>
+    </line>
+    <line>
+      <![CDATA[Traveller widget opened]]>
+    </line>
+    <line>
+      <![CDATA[Adults selected: 3]]>
+    </line>
+    <line>
+      <![CDATA[Selected 3 adults]]>
+    </line>
+    <line>
+      <![CDATA[Traveller selection applied]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-07T18:58:28 IST" name="Default suite" finished-at="2026-02-07T18:58:55 IST" duration-ms="27257">
+    <groups>
+    </groups>
+    <test started-at="2026-02-07T18:58:28 IST" name="Default test" finished-at="2026-02-07T18:58:55 IST" duration-ms="27257">
+      <class name="BookingFlightTickets.BookingFlightTickets.AppTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:28 IST" name="setup" finished-at="2026-02-07T18:58:40 IST" duration-ms="11807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookRoundTripFlight()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:40 IST" name="bookRoundTripFlight" finished-at="2026-02-07T18:58:54 IST" duration-ms="14483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started: Book Round Trip Flight]]>
+            </line>
+            <line>
+              <![CDATA[Login popup closed]]>
+            </line>
+            <line>
+              <![CDATA[Chat popup closed]]>
+            </line>
+            <line>
+              <![CDATA[Popups closed]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on currency dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Typing currency in search box: INR]]>
+            </line>
+            <line>
+              <![CDATA[Number of currency suggestions displayed: 1]]>
+            </line>
+            <line>
+              <![CDATA[Currency suggestion found: Indian Rupee
+INR]]>
+            </line>
+            <line>
+              <![CDATA[Currency selected successfully: INR]]>
+            </line>
+            <line>
+              <![CDATA[Source city selected: Pune Airport]]>
+            </line>
+            <line>
+              <![CDATA[Destination city selected: Hyderabad Begumpet Airport]]>
+            </line>
+            <line>
+              <![CDATA[Cities selected]]>
+            </line>
+            <line>
+              <![CDATA[Departure date selected: Tue Feb 17 2026]]>
+            </line>
+            <line>
+              <![CDATA[Return date field activated]]>
+            </line>
+            <line>
+              <![CDATA[Return date selected: Sun Mar 01 2026]]>
+            </line>
+            <line>
+              <![CDATA[Dates selected]]>
+            </line>
+            <line>
+              <![CDATA[Starting traveller selection flow]]>
+            </line>
+            <line>
+              <![CDATA[Traveller widget opened]]>
+            </line>
+            <line>
+              <![CDATA[Traveller widget opened]]>
+            </line>
+            <line>
+              <![CDATA[Adults = 3]]>
+            </line>
+            <line>
+              <![CDATA[Traveller widget opened]]>
+            </line>
+            <line>
+              <![CDATA[Adults selected: 3]]>
+            </line>
+            <line>
+              <![CDATA[Selected 3 adults]]>
+            </line>
+            <line>
+              <![CDATA[Traveller selection applied]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookRoundTripFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:54 IST" name="tearDown" finished-at="2026-02-07T18:58:55 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BookingFlightTickets.BookingFlightTickets.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
