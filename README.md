@@ -102,90 +102,6 @@ Make-My-Trip-Automation/
 
 ```
 
-
-
-## 🚀 Installation & Setup
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/AryanMishra17/Make-My-Trip-Automation.git
-cd Make-My-Trip-Automation
-```
-
-### Step 2: Import Project
-```bash
-# Using Maven
-mvn clean install
-
-# Or import directly into your IDE
-```
-
-### Step 3: Update Test Data
-Create `testdata.xlsx` with columns:
-- FromCity
-- ToCity
-- DepartDate
-- ReturnDate
-- Passengers
-- TravelClass
-
-
----
-
-## 🔑 Key Technologies Explained
-
-### 1. **Page Object Model (POM)**
-Separates test logic from UI locators for better maintainability.
-
-### 2. **Data-Driven Testing (DDT)**
-Runs same test with multiple data sets from external source.
-
-### 3. **Synchronization Strategies**
-
-#### Implicit Wait
-```java
-driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-```
-
-#### Explicit Wait
-```java
-WebDriverWait wait = new WebDriverWait(driver, 20);
-wait.until(ExpectedConditions.visibilityOf(element));
-wait.until(ExpectedConditions.elementToBeClickable(element));
-```
-
-#### Custom Wait
-```java
-public static void waitForElement(WebElement element) {
-    WebDriverWait wait = new WebDriverWait(driver, 20);
-    wait.until(ExpectedConditions.visibilityOf(element));
-}
-```
-
-### 4. **WebDriver Management**
-
-
-### 5. **Locator Strategies**
-
-
-### 6. **Calendar/Date Picker Handling**
-
-### 7. **Auto-Suggestion Handling**
-
-### 8. **Scrolling**
-
-
-### 9. **Popup Handling**
-
-
-### 10. **IFrame Handling**
-
-
-### 11. **Child Window/Tab Handling**
-
-
-
-
 ## 📈 TestNG Reports
 
 ### Report Locations
@@ -204,14 +120,34 @@ test-output/
 2. **Console Output**: View Maven console
 3. **Eclipse TestNG**: View TestNG Results tab
 
-### Report Features
-- ✅ Test Pass/Fail Status
-- ✅ Execution Duration
-- ✅ Stack Traces for Failures
-- ✅ Screenshots of Failures
-- ✅ Test Configuration Details
 
----
+## 🔑 Key Technologies Used in Project.
+
+### 1. **Page Object Model (POM)**
+
+### 2. **Data-Driven Testing (DDT)**
+
+### 3. **Synchronization Strategies**
+
+### 4. **WebDriver Management**
+
+### 5. **Locator Strategies**
+
+### 6. **Calendar/Date Picker Handling**
+
+### 7. **Auto-Suggestion Handling**
+
+### 8. **Scrolling**
+
+### 9. **Popup Handling**
+
+### 10. **IFrame Handling**
+
+### 11. **Child Window/Tab Handling**
+
+
+
+
 
 ## 🎥 Video Demonstrations
 
@@ -318,6 +254,37 @@ test-output/
 - TestNG Framework
 - MakeMyTrip for providing the test application
 - Java Community
+
+  
+---
+## 🚀 Installation & Setup
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/AryanMishra17/Make-My-Trip-Automation.git
+cd Make-My-Trip-Automation
+```
+
+### Step 2: Import Project
+```bash
+# Using Maven
+mvn clean install
+
+# Or import directly into your IDE
+```
+
+### Step 3: Update Test Data
+Create `testdata.xlsx` with columns:
+- FromCity
+- ToCity
+- DepartDate
+- ReturnDate
+- Passengers
+- TravelClass
+
+
+---
+
 
 ---
 
