@@ -7,27 +7,7 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 
 ### TestNG Report Screenshots
 <img width="640" height="916" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
----
 
-## 📋 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Key Technologies](#key-technologies)
-- [Test Execution](#test-execution)
-- [TestNG Reports](#testng-reports)
-- [Video Demonstrations](#video-demonstrations)
-- [Screenshots](#screenshots)
-- [Advanced Features](#advanced-features)
-- [Configuration](#configuration)
-
-- [Contributing](#contributing)
-
----
 
 ## 🎯 Project Overview
 
@@ -122,20 +102,7 @@ Make-My-Trip-Automation/
 
 ```
 
----
 
-## 📋 Prerequisites
-
-Before running the tests, ensure you have:
-
-- **Java JDK 8+** installed
-- **Maven 3.6+** installed
-- **Git** for version control
-- **ChromeDriver/GeckoDriver** (automatically managed via WebDriverManager)
-- **IDE** (Eclipse or IntelliJ)
-- **Test Data Files** (Excel sheet with test cases)
-
----
 
 ## 🚀 Installation & Setup
 
