@@ -9,18 +9,6 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 <img width="650" height="850" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
 
 
-## 🎥 Video Demonstrations
-
-### Video 1: Complete Test Execution Demo
-- **Link**: [Add your video link here]
-- **Duration**: [XX minutes]
-- **Content**: 
-  - Full flight booking automation flow
-  - Test execution from start to finish
-  - Real-time browser interactions
-  - Multiple test scenarios
-
-
 ## 🎯 Project Overview
 
 This automation framework automates the **MakeMyTrip flight booking process** with comprehensive test scenarios covering various web elements and interactions. It demonstrates best practices in test automation including POM architecture, data-driven testing, and robust synchronization techniques.
