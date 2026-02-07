@@ -31,7 +31,7 @@ public class HomePage extends TestCase{
 	    By closeLoginPopup = By.xpath("//span[@data-cy='closeModal']");
 	    By closeChatPopup  = By.xpath("//img[@alt='minimize']");
 
-	    public void closePopups() {
+	    public void loginPopups() {
 
 	        try {
 	            WebElement loginPopup = wait.until(
@@ -44,6 +44,9 @@ public class HomePage extends TestCase{
 	            Reporter.log("Login popup not displayed" + e.getMessage(), true);
 	            throw e;
 	        }
+	    }
+	    
+	    public void chatPopups() {
 
 	        try {
 	            WebElement chatPopup = wait.until(
@@ -58,8 +61,9 @@ public class HomePage extends TestCase{
 	        }
 	    }
 
-	    public void enterSourceCity(String city) {
+	    public void enterSourceCity(String city) throws InterruptedException {
 
+	    	Thread.sleep(2000);
 	        WebElement fromCity = wait.until(
 	            ExpectedConditions.elementToBeClickable(By.id("fromCity"))
 	        );
@@ -78,10 +82,9 @@ public class HomePage extends TestCase{
 	        Reporter.log("Source city selected: " + city, true);
 	    }
 
-	    public void enterDestinationCity(String city) {
+	    public void enterDestinationCity(String city) throws InterruptedException {
+	    	Thread.sleep(2000);
 
-	    	
-	    	
 	        WebElement toCity = wait.until(
 	            ExpectedConditions.elementToBeClickable(By.id("toCity"))
 	        );
@@ -90,7 +93,8 @@ public class HomePage extends TestCase{
 	        js.executeScript("arguments[0].click();", toCity);
 	        toCity.sendKeys(Keys.CONTROL + "a");
 	        toCity.sendKeys(city);
-
+	        
+	    	Thread.sleep(1000);
 	        WebElement suggestion = wait.until(
 	            ExpectedConditions.elementToBeClickable(
 	                By.xpath("//p[contains(text(),'" + city + "')]")
@@ -101,8 +105,8 @@ public class HomePage extends TestCase{
 	        Reporter.log("Destination city selected: " + city, true);
 	    }
 
-	    public void selectDepartureDate(String date) {
-
+	    public void selectDepartureDate(String date) throws InterruptedException {
+	    	Thread.sleep(2000);
 	        WebElement departureDate = wait.until(
 	            ExpectedConditions.elementToBeClickable(
 	                By.xpath("//div[@aria-label='" + date + "']")
@@ -113,10 +117,8 @@ public class HomePage extends TestCase{
 	        Reporter.log("Departure date selected: " + date, true);
 	    }
 
-	    public void selectReturnDate(String date) {
-
-	      
-
+	    public void selectReturnDate(String date) throws InterruptedException {
+	    	Thread.sleep(2000);
 	    	 WebElement returnArea = wait.until(
 	    		        ExpectedConditions.elementToBeClickable(
 	    		            By.xpath("//div[@data-cy='returnArea']")
@@ -126,7 +128,7 @@ public class HomePage extends TestCase{
 	    		    js.executeScript("arguments[0].click();", returnArea);
 	    		    Reporter.log("Return date field activated", true);
 	    		    
-	    		    
+	    	    	Thread.sleep(2000); 
 	    	  WebElement returnDate = wait.until(
 	  	            ExpectedConditions.presenceOfElementLocated(
 	  	                By.xpath("//div[@aria-label='" + date + "']")
@@ -164,15 +166,9 @@ public class HomePage extends TestCase{
 	                ));
 
 	            no.click();
-
-
-
 	        Reporter.log("Adults selected: " + targetAdults, true);
 	    }
 
-
-
-	
 	    public void clickApplyTraveller() {
 
 	        WebElement applyBtn = wait.until(

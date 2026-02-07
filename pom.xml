@@ -93,12 +93,14 @@
 	 <artifactId>testng</artifactId>
 	  <version>7.10.1</version> 
 	  <scope>test</scope>
-	   </dependency>
-  	<dependency>
+</dependency>
+
+	<!--   
+  <dependency>
   		<groupId>seleniumbasicqspider</groupId>
   		<artifactId>seleniumbasicqspider</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	</dependency>     -->
   </dependencies>
 
   <build>

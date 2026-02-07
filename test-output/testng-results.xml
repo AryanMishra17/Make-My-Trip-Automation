@@ -2,7 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Test started: Book Round Trip Flight]]>
+      <![CDATA[==================================================]]>
+    </line>
+    <line>
+      <![CDATA[TEST STARTED : BOOK ROUND TRIP FLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[==================================================]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 1 : DATA.PROPERTIES FILE LOADED... ----------]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 2 : OPEN APPLICATION ----------]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application URL]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 3 : CLOSE INITIAL POPUPS ----------]]>
     </line>
     <line>
       <![CDATA[Login popup closed]]>
@@ -11,7 +32,52 @@
       <![CDATA[Chat popup closed]]>
     </line>
     <line>
+      <![CDATA[Initial popups closed successfully]]>
+    </line>
+    <line>
       <![CDATA[Popups closed]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 4 : LOGIN / SIGNUP ----------]]>
+    </line>
+    <line>
+      <![CDATA[login/Signup]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[switched to iframe]]>
+    </line>
+    <line>
+      <![CDATA[Google Sign-in clicked]]>
+    </line>
+    <line>
+      <![CDATA[Switched to child window]]>
+    </line>
+    <line>
+      <![CDATA[Email entered: abc@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Child window closed]]>
+    </line>
+    <line>
+      <![CDATA[Switched back to main window]]>
+    </line>
+    <line>
+      <![CDATA[Login popup closed]]>
+    </line>
+    <line>
+      <![CDATA[Popups closed after login/signup]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 5 : CURRENCY SELECTION ----------]]>
+    </line>
+    <line>
+      <![CDATA[Selecting currency from auto-suggestion list]]>
+    </line>
+    <line>
+      <![CDATA[Scrolling to Click on currency dropdown]]>
     </line>
     <line>
       <![CDATA[Clicking on currency dropdown]]>
@@ -28,6 +94,9 @@ INR]]>
     </line>
     <line>
       <![CDATA[Currency selected successfully: INR]]>
+    </line>
+    <line>
+      <![CDATA[---------- STEP 6 : FLIGHT BOOKING FLOW ----------]]>
     </line>
     <line>
       <![CDATA[Source city selected: Pune Airport]]>
@@ -51,7 +120,7 @@ INR]]>
       <![CDATA[Dates selected]]>
     </line>
     <line>
-      <![CDATA[Starting traveller selection flow]]>
+      <![CDATA[  Starting traveller selection flow  ]]>
     </line>
     <line>
       <![CDATA[Traveller widget opened]]>
@@ -75,22 +144,61 @@ INR]]>
       <![CDATA[Traveller selection applied]]>
     </line>
     <line>
-      <![CDATA[Test completed successfully]]>
+      <![CDATA[Traveller details applied successfully]]>
+    </line>
+    <line>
+      <![CDATA[==================================================]]>
+    </line>
+    <line>
+      <![CDATA[TEST COMPLETED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[==================================================]]>
+    </line>
+    <line>
+      <![CDATA[==================================================]]>
+    </line>
+    <line>
+      <![CDATA[ WINDOW CLOSED & QUIT FROM BROWSER SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[==================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-07T18:58:28 IST" name="Default suite" finished-at="2026-02-07T18:58:55 IST" duration-ms="27257">
+  <suite started-at="2026-02-07T20:57:11 IST" name="Default suite" finished-at="2026-02-07T20:58:11 IST" duration-ms="60180">
     <groups>
     </groups>
-    <test started-at="2026-02-07T18:58:28 IST" name="Default test" finished-at="2026-02-07T18:58:55 IST" duration-ms="27257">
+    <test started-at="2026-02-07T20:57:11 IST" name="Default test" finished-at="2026-02-07T20:58:11 IST" duration-ms="60180">
       <class name="BookingFlightTickets.BookingFlightTickets.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:28 IST" name="setup" finished-at="2026-02-07T18:58:40 IST" duration-ms="11807" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T20:57:11 IST" name="setup" finished-at="2026-02-07T20:57:16 IST" duration-ms="4630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookRoundTripFlight()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:40 IST" name="bookRoundTripFlight" finished-at="2026-02-07T18:58:54 IST" duration-ms="14483" status="PASS">
+        <test-method signature="bookRoundTripFlight()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T20:57:16 IST" name="bookRoundTripFlight" finished-at="2026-02-07T20:58:11 IST" duration-ms="55109" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Test started: Book Round Trip Flight]]>
+              <![CDATA[==================================================]]>
+            </line>
+            <line>
+              <![CDATA[TEST STARTED : BOOK ROUND TRIP FLIGHT]]>
+            </line>
+            <line>
+              <![CDATA[==================================================]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 1 : DATA.PROPERTIES FILE LOADED... ----------]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 2 : OPEN APPLICATION ----------]]>
+            </line>
+            <line>
+              <![CDATA[Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to application URL]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 3 : CLOSE INITIAL POPUPS ----------]]>
             </line>
             <line>
               <![CDATA[Login popup closed]]>
@@ -99,7 +207,52 @@ INR]]>
               <![CDATA[Chat popup closed]]>
             </line>
             <line>
+              <![CDATA[Initial popups closed successfully]]>
+            </line>
+            <line>
               <![CDATA[Popups closed]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 4 : LOGIN / SIGNUP ----------]]>
+            </line>
+            <line>
+              <![CDATA[login/Signup]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[switched to iframe]]>
+            </line>
+            <line>
+              <![CDATA[Google Sign-in clicked]]>
+            </line>
+            <line>
+              <![CDATA[Switched to child window]]>
+            </line>
+            <line>
+              <![CDATA[Email entered: abc@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Child window closed]]>
+            </line>
+            <line>
+              <![CDATA[Switched back to main window]]>
+            </line>
+            <line>
+              <![CDATA[Login popup closed]]>
+            </line>
+            <line>
+              <![CDATA[Popups closed after login/signup]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 5 : CURRENCY SELECTION ----------]]>
+            </line>
+            <line>
+              <![CDATA[Selecting currency from auto-suggestion list]]>
+            </line>
+            <line>
+              <![CDATA[Scrolling to Click on currency dropdown]]>
             </line>
             <line>
               <![CDATA[Clicking on currency dropdown]]>
@@ -116,6 +269,9 @@ INR]]>
             </line>
             <line>
               <![CDATA[Currency selected successfully: INR]]>
+            </line>
+            <line>
+              <![CDATA[---------- STEP 6 : FLIGHT BOOKING FLOW ----------]]>
             </line>
             <line>
               <![CDATA[Source city selected: Pune Airport]]>
@@ -139,7 +295,7 @@ INR]]>
               <![CDATA[Dates selected]]>
             </line>
             <line>
-              <![CDATA[Starting traveller selection flow]]>
+              <![CDATA[  Starting traveller selection flow  ]]>
             </line>
             <line>
               <![CDATA[Traveller widget opened]]>
@@ -163,12 +319,30 @@ INR]]>
               <![CDATA[Traveller selection applied]]>
             </line>
             <line>
-              <![CDATA[Test completed successfully]]>
+              <![CDATA[Traveller details applied successfully]]>
+            </line>
+            <line>
+              <![CDATA[==================================================]]>
+            </line>
+            <line>
+              <![CDATA[TEST COMPLETED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[==================================================]]>
             </line>
           </reporter-output>
         </test-method> <!-- bookRoundTripFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T18:58:54 IST" name="tearDown" finished-at="2026-02-07T18:58:55 IST" duration-ms="851" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BookingFlightTickets.BookingFlightTickets.AppTest@16eb3ea3]" started-at="2026-02-07T20:58:11 IST" name="tearDown" finished-at="2026-02-07T20:58:11 IST" duration-ms="397" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[==================================================]]>
+            </line>
+            <line>
+              <![CDATA[ WINDOW CLOSED & QUIT FROM BROWSER SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[==================================================]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- BookingFlightTickets.BookingFlightTickets.AppTest -->

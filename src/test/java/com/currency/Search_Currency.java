@@ -30,11 +30,14 @@ public class Search_Currency {
     By options     = By.xpath("//div[contains(@class,'ListSection')]//p");
 
     public void selectCurrency(String currency) throws InterruptedException {
-    	 
+          Thread.sleep(2000);
+          Reporter.log("Scrolling to Click on currency dropdown",true);
         js.executeScript("window.scrollBy(0, 350);");
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         Reporter.log("Clicking on currency dropdown",true);
+        Thread.sleep(1000);
         driver.findElement(currencyBtn).click();
+        Thread.sleep(2000);
 
         WebElement search = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(searchBox)
@@ -54,6 +57,7 @@ public class Search_Currency {
         	Reporter.log("Currency suggestion found: " + e.getText(), true);
 
             if (e.getText().contains(currency)) {
+                Thread.sleep(2000);
                 e.click();
                 Reporter.log("Currency selected successfully: " + currency, true);
                 selected = true;
