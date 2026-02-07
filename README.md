@@ -173,14 +173,6 @@ test-output/
 ---
 
 
-## 📞 Contact & Support
-
-- **Author**: Aryan Mishra
-- **GitHub**: [AryanMishra17](https://github.com/AryanMishra17)
-- **Repository**: [Make-My-Trip-Automation](https://github.com/AryanMishra17/Make-My-Trip-Automation)
-- **Email**: [mishraaryan813@gmail.com]
-
----
 
 ## 🙏 Acknowledgments
 
@@ -220,5 +212,13 @@ Create `testdata.xlsx` with columns:
 ---
 
 
+## 📞 Contact & Support
+
+- **Author**: Aryan Mishra
+- **GitHub**: [AryanMishra17](https://github.com/AryanMishra17)
+- **Repository**: [Make-My-Trip-Automation](https://github.com/AryanMishra17/Make-My-Trip-Automation)
+- **Email**: [mishraaryan813@gmail.com]
+
+---
 ---
 
