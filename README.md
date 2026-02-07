@@ -3,6 +3,12 @@
 A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com built with Java, TestNG, and Page Object Model (POM). This project demonstrates end-to-end automation testing of flight booking workflows with advanced Selenium techniques.
 
 
+## 🎥 Video Demonstrations
+
+### 📹 Video 1: Complete Test Execution in Chrome
+- **Link**: https://www.linkedin.com/posts/aryan-mishra-912925223_selenium-automationtesting-java-activity-7425940305717133312-BElh
+- **Duration**: ~2–3 minutes
+
 ## 📸 Screenshot
 
 ### TestNG Report Screenshots
