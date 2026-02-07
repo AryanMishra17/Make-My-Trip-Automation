@@ -2,6 +2,11 @@
 
 A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com built with Java, TestNG, and Page Object Model (POM). This project demonstrates end-to-end automation testing of flight booking workflows with advanced Selenium techniques.
 
+
+## 📸 Screenshot
+
+### TestNG Report Screenshots
+<img width="640" height="916" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
 ---
 
 ## 📋 Table of Contents
@@ -18,7 +23,7 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 - [Video Demonstrations](#video-demonstrations)
 - [Screenshots](#screenshots)
 - [Advanced Features](#advanced-features)
-- [Configuration](#configuration)<img width="640" height="916" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
+- [Configuration](#configuration)
 
 - [Contributing](#contributing)
 
@@ -261,11 +266,6 @@ test-output/
   - Pass/Fail statistics
   - Failure screenshots review
 
----
-
-## 📸 Screenshots
-
-### TestNG Report Screenshots
 
 ---
 
