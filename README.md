@@ -6,7 +6,19 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 ## 📸 Screenshot
 
 ### TestNG Report Screenshots
-<img width="640" height="916" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
+<img width="650" height="850" alt="Screenshot 2026-02-07 210256" src="https://github.com/user-attachments/assets/d6e77dfa-dc53-4e6f-afa1-defa43519151" />
+
+
+## 🎥 Video Demonstrations
+
+### Video 1: Complete Test Execution Demo
+- **Link**: [Add your video link here]
+- **Duration**: [XX minutes]
+- **Content**: 
+  - Full flight booking automation flow
+  - Test execution from start to finish
+  - Real-time browser interactions
+  - Multiple test scenarios
 
 
 ## 🎯 Project Overview
@@ -119,46 +131,6 @@ test-output/
 1. **HTML Report**: Open `test-output/index.html` in browser
 2. **Console Output**: View Maven console
 3. **Eclipse TestNG**: View TestNG Results tab
-
-
-## 🔑 Key Technologies Used in Project.
-
-### 1. **Page Object Model (POM)**
-
-### 2. **Data-Driven Testing (DDT)**
-
-### 3. **Synchronization Strategies**
-
-### 4. **WebDriver Management**
-
-### 5. **Locator Strategies**
-
-### 6. **Calendar/Date Picker Handling**
-
-### 7. **Auto-Suggestion Handling**
-
-### 8. **Scrolling**
-
-### 9. **Popup Handling**
-
-### 10. **IFrame Handling**
-
-### 11. **Child Window/Tab Handling**
-
-
-
-
-
-## 🎥 Video Demonstrations
-
-### Video 1: Complete Test Execution Demo
-- **Link**: [Add your video link here]
-- **Duration**: [XX minutes]
-- **Content**: 
-  - Full flight booking automation flow
-  - Test execution from start to finish
-  - Real-time browser interactions
-  - Multiple test scenarios
 
 
 
