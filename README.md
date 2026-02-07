@@ -160,14 +160,6 @@ test-output/
   - Real-time browser interactions
   - Multiple test scenarios
 
-### Video 2: TestNG Report Showcase
-- **Link**: [Add your video link here]
-- **Duration**: [XX minutes]
-- **Content**:
-  - TestNG report generation
-  - Report analysis and details
-  - Pass/Fail statistics
-  - Failure screenshots review
 
 
 ---
@@ -181,32 +173,6 @@ test-output/
 - MakeMyTrip for providing the test application
 - Java Community
 
-  
----
-## 🚀 Installation & Setup
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/AryanMishra17/Make-My-Trip-Automation.git
-cd Make-My-Trip-Automation
-```
-
-### Step 2: Import Project
-```bash
-# Using Maven
-mvn clean install
-
-# Or import directly into your IDE
-```
-
-### Step 3: Update Test Data
-Create `testdata.xlsx` with columns:
-- FromCity
-- ToCity
-- DepartDate
-- ReturnDate
-- Passengers
-- TravelClass
 
 
 ---
