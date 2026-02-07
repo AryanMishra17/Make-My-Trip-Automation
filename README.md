@@ -147,24 +147,7 @@ mvn clean install
 # Or import directly into your IDE
 ```
 
-### Step 3: Configure Data.properties
-Update `Data.properties` with your test environment details:
-```properties
-# Browser Configuration
-browser=chrome
-headless=false
-implicitWait=10
-explicitWait=20
-
-# Application URL
-baseUrl=https://www.makemytrip.com/
-
-# Test Data
-testDataPath=src/test/resources/testdata.xlsx
-screenshotPath=screenshots/
-```
-
-### Step 4: Update Test Data
+### Step 3: Update Test Data
 Create `testdata.xlsx` with columns:
 - FromCity
 - ToCity
@@ -173,17 +156,6 @@ Create `testdata.xlsx` with columns:
 - Passengers
 - TravelClass
 
-### Step 5: Run Tests
-```bash
-# Run all tests
-mvn test
-
-# Run specific test
-mvn test -Dtest=FlightBookingTest
-
-# Run with TestNG XML
-mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
-```
 
 ---
 
