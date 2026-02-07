@@ -204,11 +204,6 @@ public static void waitForElement(WebElement element) {
 
 ### 9. **Popup Handling**
 
-#### Alert Popup
-
-
-#### Custom Popup
-
 
 ### 10. **IFrame Handling**
 
@@ -271,40 +266,9 @@ test-output/
 
 ### TestNG Report Screenshots
 
-#### Test Report Dashboard
-![TestNG Report](screenshots/testng-report-dashboard.png)
-
-#### Test Results Summary
-![Test Results](screenshots/test-results-summary.png)
-
-#### Individual Test Details
-![Test Details](screenshots/test-details.png)
-
-### Application Screenshots
-
-#### Home Page
-![Home Page](screenshots/homepage.png)
-
-#### Flight Search Results
-![Search Results](screenshots/search-results.png)
-
-#### Passenger Details
-![Passenger Details](screenshots/passenger-details.png)
-
-#### Payment Page
-![Payment Page](screenshots/payment-page.png)
-
 ---
 
-## 🚀 Advanced Features
 
-### Feature 1: Data-Driven Testing
-
-### Feature 2: Screenshot on Failure
-
-### Feature 3: POM
-
----
 
 `
 
