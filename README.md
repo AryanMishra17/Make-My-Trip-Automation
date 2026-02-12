@@ -16,7 +16,7 @@ A comprehensive **Selenium-based Test Automation Framework** for MakeMyTrip.com 
 
 ## Test Cases
 [Make My Trip Testcases.xlsx]
-[Make My Trip Testcases.xlsx](https://github.com/user-attachments/files/25263782/Make.My.Trip.Testcases.xlsx)
+[Click Here To Download Excel File](https://github.com/user-attachments/files/25263782/Make.My.Trip.Testcases.xlsx)
 
 
 ## 🎯 Project Overview
